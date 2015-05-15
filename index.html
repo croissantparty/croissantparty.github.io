@@ -131,7 +131,13 @@
 </script>
 <script>
 $(function() {
-  $('body').flowtype();
+  $('body').flowtype({
+   minimum   : 200,
+   maximum   : 800,
+   minFont   : 12,
+   maxFont   : 40,
+   fontRatio : 30
+  });
 });
 </script>
 </body>
