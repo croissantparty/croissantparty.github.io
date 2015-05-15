@@ -7,6 +7,7 @@
     <title>Croissant</title>
     <script src="//use.typekit.net/lqk5mst.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
     <script src="flowtype.js"></script>
     <style>
 
@@ -128,7 +129,11 @@
  ga('send', 'pageview');
 
 </script>
-
+<script>
+$(function() {
+  $('body').flowtype();
+});
+</script>
 </body>
 </html>
 </html>
